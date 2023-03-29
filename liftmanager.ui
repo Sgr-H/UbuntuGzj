@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LiftManager</class>
+ <widget class="QWidget" name="LiftManager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>629</width>
+    <height>359</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="6,1">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>使用柱状图(预定)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame">
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>40</y>
+          <width>101</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>设备运行状态</string>
+        </property>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QPushButton" name="liftCloseButton">
+       <property name="text">
+        <string>Advance</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="liftReturnButton">
+       <property name="text">
+        <string>return</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="liftTestButton">
+       <property name="text">
+        <string>test</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

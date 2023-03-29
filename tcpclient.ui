@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TcpClient</class>
+ <widget class="QWidget" name="TcpClient">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>446</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="font">
+      <font>
+       <family>Ubuntu</family>
+      </font>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="1,4">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>本地服务器IP地址（仅供参考）：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_2"/>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>服务器地址：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="text">
+        <string>192.168.0.199</string>
+       </property>
+       <property name="placeholderText">
+        <string>请输入地址(开机自动连接)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>服务器端口：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="spinBox_2">
+       <property name="maximum">
+        <number>9999</number>
+       </property>
+       <property name="value">
+        <number>9999</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="text">
+        <string>连接服务器</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="text">
+        <string>断开连接</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="text">
+        <string>清空文本</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_10" stretch="5,1">
+     <item>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="text">
+        <string>sgr-H测试</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="text">
+        <string>发送</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="5" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_11" stretch="5,1">
+     <item>
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="text">
+        <string>abc16</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="text">
+        <string>HEX发送</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="6" column="0">
+    <widget class="QPushButton" name="tcpReturnButton">
+     <property name="text">
+      <string>关闭</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

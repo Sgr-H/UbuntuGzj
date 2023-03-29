@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WaterMeter</class>
+ <widget class="QWidget" name="WaterMeter">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>469</width>
+    <height>281</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTableView" name="watertableView"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLineEdit" name="waterOutlineEdit">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="waterAdvanceButton">
+       <property name="text">
+        <string>Advance</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="waterReturnButton">
+       <property name="text">
+        <string>return</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="waterTestButton">
+       <property name="text">
+        <string>test</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
