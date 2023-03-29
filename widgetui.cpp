@@ -160,7 +160,7 @@ void WidgetUI::UIConnect()
 
         QElapsedTimer mstimer;
             mstimer.start();
-            qDebug()<<"ssses"<<endl;
+            qDebug()<<"ses"<<endl;
 
 //        for (int var = 0; var < 5; ++var) {
 //        BridgeManager::instance().serialIns()->serialPort2->write(QByteArray::fromHex("6666"));
